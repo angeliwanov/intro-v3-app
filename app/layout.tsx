@@ -34,7 +34,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <header>
           <nav>
-            <ul className="flex items-center gap-2 justify-around">
+            <ul className="flex items-center gap-2">
               {links.map((link) => (
                 <li key={link.href}>
                   <Link href={link.href}>{link.label}</Link>
